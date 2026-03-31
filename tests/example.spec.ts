@@ -17,7 +17,7 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
-test('playwright github', async ({ page }) => {
+test('playwright ci/cd', async ({ page }) => {
   await page.goto('updated the url');
 
   // Expect a title "to contain" a substring.
